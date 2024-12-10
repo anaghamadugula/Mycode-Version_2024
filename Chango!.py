@@ -3,6 +3,10 @@ import tkinter as tk
 c = CurrencyConverter()
 #print(c.convert(12,"USD","INR"))
 
+#App Setup
+app = Flask(__name__)
+Scss(app)
+
 window = tk.Tk()
 window.geometry("1920x1080")
 window.title("Chango!")
